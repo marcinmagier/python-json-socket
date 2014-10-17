@@ -23,7 +23,7 @@ __copyright__= """
 	along with tserver module.  If not, see <http://www.gnu.org/licenses/>."""
 __version__	 = "1.0.1"
 
-import jsocket_base
+import jsocket.jsocket_base as jsocket_base
 import threading
 import socket
 import time
